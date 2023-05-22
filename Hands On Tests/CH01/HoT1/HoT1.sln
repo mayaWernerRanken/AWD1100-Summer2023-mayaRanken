@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOT1-TShirtsConsole", "HOT1-TShirtsConsole\HOT1-TShirtsConsole.csproj", "{0A7DE69A-35E6-4223-847C-1C6D80CB9605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HOT1-TShirtsConsole", "HOT1-TShirtsConsole\HOT1-TShirtsConsole.csproj", "{0A7DE69A-35E6-4223-847C-1C6D80CB9605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOT1-TShirtsGUI", "HOT1-TShirtsGUI\HOT1-TShirtsGUI.csproj", "{8CC09DD5-E0AE-4AED-995B-DC3E0C6929E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0A7DE69A-35E6-4223-847C-1C6D80CB9605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A7DE69A-35E6-4223-847C-1C6D80CB9605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A7DE69A-35E6-4223-847C-1C6D80CB9605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC09DD5-E0AE-4AED-995B-DC3E0C6929E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC09DD5-E0AE-4AED-995B-DC3E0C6929E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC09DD5-E0AE-4AED-995B-DC3E0C6929E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC09DD5-E0AE-4AED-995B-DC3E0C6929E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
