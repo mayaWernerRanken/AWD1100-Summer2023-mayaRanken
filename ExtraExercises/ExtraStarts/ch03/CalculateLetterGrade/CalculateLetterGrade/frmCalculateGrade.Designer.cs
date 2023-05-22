@@ -85,6 +85,7 @@
             btnCalculate.TabIndex = 2;
             btnCalculate.Text = "&Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // btnExit
             // 
@@ -95,6 +96,7 @@
             btnExit.TabIndex = 3;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // frmCalculateGrade
             // 
@@ -115,7 +117,6 @@
             Text = "Calculate Letter Grade";
             ResumeLayout(false);
             PerformLayout();
-
         }
 
         #endregion
