@@ -222,7 +222,7 @@
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(123, 36);
             btnCalculate.TabIndex = 18;
-            btnCalculate.Text = "button1";
+            btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
             btnCalculate.Click += btnCalculate_Click;
             // 
@@ -232,8 +232,9 @@
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(123, 36);
             btnClear.TabIndex = 19;
-            btnClear.Text = "button2";
+            btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // btnExit
             // 
@@ -241,8 +242,9 @@
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(123, 36);
             btnExit.TabIndex = 20;
-            btnExit.Text = "button3";
+            btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // Form1
             // 
