@@ -42,7 +42,7 @@ namespace CalculateLetterGrade
             txtLetterGrade.Text = letterGrade;
 
             //Focuses back to txtNumberGrade text box after button click
-            txtNumberGrade.Focus();
+            txtNumberGrade.Focus(); 
 
         }
 
