@@ -16,7 +16,7 @@ namespace Factorial
             {
                 factorial = factorial * counter;
             }
-            txtFact.Text = $"{factorial:d}";
+            txtFact.Text = $"{factorial}";
 
         }
 
