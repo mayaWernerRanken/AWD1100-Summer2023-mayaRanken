@@ -25,7 +25,7 @@ namespace HOT6_EX2
             set { _name = value; }
         }
 
-        public string IPAddress
+        public string IpAddress
         {
             get { return _ipAddress; }
             set { _ipAddress = value; }
