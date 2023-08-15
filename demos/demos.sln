@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{004ADEA9-8E20-4B92-8152-D0251C7FF8BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradeLibrary2", "StudentGradeLibrary2\StudentGradeLibrary2.csproj", "{7A53C59D-8026-485B-8E00-F6254DA0D534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentGradeLibrary2", "StudentGradeLibrary2\StudentGradeLibrary2.csproj", "{7A53C59D-8026-485B-8E00-F6254DA0D534}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradesConsole001", "StudentGradesConsole001\StudentGradesConsole001.csproj", "{21BC4D90-AE35-44F9-816D-CF62AD7C08B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradesConsole02", "StudentGradesConsole02\StudentGradesConsole02.csproj", "{28A2A8F1-BCCD-4DD1-9A28-AD9A3F1C4350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{21BC4D90-AE35-44F9-816D-CF62AD7C08B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21BC4D90-AE35-44F9-816D-CF62AD7C08B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21BC4D90-AE35-44F9-816D-CF62AD7C08B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A2A8F1-BCCD-4DD1-9A28-AD9A3F1C4350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A2A8F1-BCCD-4DD1-9A28-AD9A3F1C4350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A2A8F1-BCCD-4DD1-9A28-AD9A3F1C4350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A2A8F1-BCCD-4DD1-9A28-AD9A3F1C4350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

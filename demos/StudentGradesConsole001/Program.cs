@@ -31,13 +31,11 @@ namespace StudentGradesConsole001
 
             while (runProgramAgain)
             {
-                
-
                 SearchForStudent(students);
 
-                Console.ReadLine();
+                //Console.ReadLine();
 
-                //runProgramAgain = Again();
+                runProgramAgain = Again();
             }
         }
 
@@ -60,8 +58,12 @@ namespace StudentGradesConsole001
                     Console.WriteLine($"Lab Grade: {searchedStudent.LabGrade}");
                     Console.WriteLine($"Test Grade: {searchedStudent.TestGrade}");
                     CalculateOverallGrade(searchedStudent);
-                }
+                    return;
+                }   
             }
+            Console.WriteLine($"Student {searchName} not found.");
+
+            Console.ReadLine();
         }
 
         static void CalculateOverallGrade(Student student)
@@ -69,6 +71,27 @@ namespace StudentGradesConsole001
             decimal overallGrade = ((student.LabGrade * 0.4m) +
                                     (student.TestGrade) * 0.6m);
             Console.WriteLine($"Overall Grade: {overallGrade.ToString("n2")}");
+        }
+
+        static bool Again()
+        {
+            bool result = true;             //return value
+            string yesOrNo = "";            //what user enters (Y / N)
+            char firstChar = ' ';           //first character of yesOrNo
+
+            Console.Write("Run program again? (Y/N)");
+            yesOrNo = Console.ReadLine();
+
+            if (yesOrNo.Trim() != "")
+            {
+                firstChar = yesOrNo[0];
+
+                if ( firstChar != 'Y')
+                {
+                    result = false;
+                }
+            }
+            return result;
         }
     }
 }
