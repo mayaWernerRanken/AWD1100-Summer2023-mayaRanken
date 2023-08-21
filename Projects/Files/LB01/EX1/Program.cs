@@ -30,7 +30,7 @@ namespace EX1
 
         static void SearchForSong(List<Song> songs)
         {
-            //Prompt user
+            //Prompt user to enter song, artist, or genre
             Console.Clear();
             Console.Write("Please enter song name, artist name, or genre name:\n\n");
             string input = Console.ReadLine();
@@ -47,11 +47,12 @@ namespace EX1
                 if (searchResult != null)
                 {
                     Console.Clear();
-                    Console.WriteLine($"\nSong found:\n" +
-                        $"\n{song.Name}\n" +
+                    Console.WriteLine($"Song found:\n" +
+                        $"\nSong Name: {song.Name}\n" +
                         $"Artist: {song.ArtistName}\n" +
                         $"Genre: {song.Genre}");
-                    Console.WriteLine("\nEnter another song? Y/N");
+
+                    Console.WriteLine("\nSearch for another song? Y/N");
                     TryAgain(songs);
                     return;
                 }
